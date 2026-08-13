@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "functional_groups": [
+    {"range_min": 1680, "range_max": 1750, "intensity": "fuerte", "group": "C=O (ésteres, carbonilos)", "bond": "C=O stretch", "color": "red"},
+    {"range_min": 1630, "range_max": 1680, "intensity": "fuerte", "group": "C=O (amidas)", "bond": "C=O stretch", "color": "darkred"},
+    {"range_min": 2200, "range_max": 2260, "intensity": "media", "group": "C≡N (nitrilo)", "bond": "C≡N stretch", "color": "purple"},
+    {"range_min": 3000, "range_max": 3100, "intensity": "media", "group": "C-H aromático", "bond": "C-H stretch", "color": "orange"},
+    {"range_min": 1450, "range_max": 1600, "intensity": "fuerte", "group": "C=C aromático", "bond": "C=C stretch", "color": "darkorange"},
+    {"range_min": 2800, "range_max": 3000, "intensity": "fuerte", "group": "C-H alifático", "bond": "C-H stretch", "color": "blue"},
+    {"range_min": 1350, "range_max": 1480, "intensity": "media", "group": "CH2/CH3 deformación", "bond": "C-H bend", "color": "lightblue"},
+    {"range_min": 1000, "range_max": 1300, "intensity": "fuerte", "group": "C-O (éteres, ésteres)", "bond": "C-O stretch", "color": "green"},
+    {"range_min": 3200, "range_max": 3500, "intensity": "media", "group": "N-H (amidas)", "bond": "N-H stretch", "color": "brown"},
+    {"range_min": 600, "range_max": 800, "intensity": "fuerte", "group": "C-Cl (PVC)", "bond": "C-Cl stretch", "color": "cyan"}
+  ]
+}

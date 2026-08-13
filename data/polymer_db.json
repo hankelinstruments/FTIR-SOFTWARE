@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "polymers": {
+    "PET": {
+      "name": "Polietileno Tereftalato (PET)",
+      "characteristic_peaks": [
+        {"wavenumber": 1710, "intensity": "muy fuerte", "description": "C=O ester"},
+        {"wavenumber": 1240, "intensity": "fuerte", "description": "C-O ester"},
+        {"wavenumber": 1090, "intensity": "fuerte", "description": "C-O-C"},
+        {"wavenumber": 725, "intensity": "media", "description": "Anillo aromático"},
+        {"wavenumber": 1410, "intensity": "media", "description": "Anillo benceno"}
+      ],
+      "density": 1.38,
+      "applications": "Botellas, fibras, envases"
+    },
+    "ABS": {
+      "name": "Acrilonitrilo Butadieno Estireno (ABS)",
+      "characteristic_peaks": [
+        {"wavenumber": 2237, "intensity": "media", "description": "C≡N nitrilo"},
+        {"wavenumber": 1600, "intensity": "media", "description": "C=C aromático"},
+        {"wavenumber": 1493, "intensity": "media", "description": "C=C aromático"},
+        {"wavenumber": 1450, "intensity": "media", "description": "CH2 deformación"},
+        {"wavenumber": 966, "intensity": "media", "description": "C-H trans butadieno"},
+        {"wavenumber": 910, "intensity": "media", "description": "C-H vinilo"}
+      ],
+      "density": 1.04,
+      "applications": "Automotriz, electrónica, juguetes"
+    },
+    "PLA": {
+      "name": "Ácido Poliláctico (PLA)",
+      "characteristic_peaks": [
+        {"wavenumber": 1750, "intensity": "muy fuerte", "description": "C=O ester"},
+        {"wavenumber": 1180, "intensity": "fuerte", "description": "C-O ester"},
+        {"wavenumber": 1080, "intensity": "fuerte", "description": "C-O-C"},
+        {"wavenumber": 1450, "intensity": "media", "description": "CH3 deformación"},
+        {"wavenumber": 1380, "intensity": "media", "description": "CH3 deformación"}
+      ],
+      "density": 1.24,
+      "applications": "Impresión 3D, envases biodegradables"
+    },
+    "PA": {
+      "name": "Poliamida (Nylon)",
+      "characteristic_peaks": [
+        {"wavenumber": 3300, "intensity": "fuerte", "description": "N-H stretch"},
+        {"wavenumber": 1630, "intensity": "muy fuerte", "description": "C=O amida I"},
+        {"wavenumber": 1540, "intensity": "fuerte", "description": "N-H amida II"},
+        {"wavenumber": 1270, "intensity": "media", "description": "C-N amida III"},
+        {"wavenumber": 690, "intensity": "media", "description": "N-H amida V"}
+      ],
+      "density": 1.14,
+      "applications": "Textiles, engranajes, fibras"
+    },
+    "PMMA": {
+      "name": "Polimetilmetacrilato (PMMA - Acrílico)",
+      "characteristic_peaks": [
+        {"wavenumber": 1730, "intensity": "muy fuerte", "description": "C=O ester"},
+        {"wavenumber": 1150, "intensity": "fuerte", "description": "C-O ester"},
+        {"wavenumber": 1190, "intensity": "fuerte", "description": "C-O-C"},
+        {"wavenumber": 1485, "intensity": "media", "description": "CH2 deformación"},
+        {"wavenumber": 1385, "intensity": "media", "description": "CH3 deformación"}
+      ],
+      "density": 1.18,
+      "applications": "Lentes, displays, acuarios"
+    },
+    "PP": {
+      "name": "Polipropileno (PP)",
+      "characteristic_peaks": [
+        {"wavenumber": 2950, "intensity": "fuerte", "description": "CH3 stretch"},
+        {"wavenumber": 2915, "intensity": "fuerte", "description": "CH2 stretch"},
+        {"wavenumber": 2835, "intensity": "fuerte", "description": "CH stretch"},
+        {"wavenumber": 1450, "intensity": "media", "description": "CH3 deformación"},
+        {"wavenumber": 1375, "intensity": "media", "description": "CH3 deformación"},
+        {"wavenumber": 1165, "intensity": "media", "description": "C-C stretch"}
+      ],
+      "density": 0.90,
+      "applications": "Envases, automotriz, textiles"
+    },
+    "PE": {
+      "name": "Polietileno (PE)",
+      "characteristic_peaks": [
+        {"wavenumber": 2915, "intensity": "fuerte", "description": "CH2 stretch asimétrico"},
+        {"wavenumber": 2848, "intensity": "fuerte", "description": "CH2 stretch simétrico"},
+        {"wavenumber": 1470, "intensity": "media", "description": "CH2 deformación"},
+        {"wavenumber": 1460, "intensity": "media", "description": "CH2 deformación"},
+        {"wavenumber": 730, "intensity": "media", "description": "CH2 rocking"}
+      ],
+      "density": 0.92,
+      "applications": "Bolsas, envases, tuberías"
+    },
+    "HDPE": {
+      "name": "Polietileno Alta Densidad (HDPE)",
+      "characteristic_peaks": [
+        {"wavenumber": 2915, "intensity": "fuerte", "description": "CH2 stretch asimétrico"},
+        {"wavenumber": 2848, "intensity": "fuerte", "description": "CH2 stretch simétrico"},
+        {"wavenumber": 1470, "intensity": "media", "description": "CH2 deformación"},
+        {"wavenumber": 1460, "intensity": "media", "description": "CH2 deformación"},
+        {"wavenumber": 730, "intensity": "media", "description": "CH2 rocking"},
+        {"wavenumber": 720, "intensity": "media", "description": "CH2 rocking cristalino"}
+      ],
+      "density": 0.95,
+      "applications": "Tuberías, tanques, juguetes"
+    },
+    "PS": {
+      "name": "Poliestireno (PS)",
+      "characteristic_peaks": [
+        {"wavenumber": 3025, "intensity": "media", "description": "C-H aromático"},
+        {"wavenumber": 2920, "intensity": "media", "description": "C-H alifático"},
+        {"wavenumber": 1600, "intensity": "fuerte", "description": "C=C aromático"},
+        {"wavenumber": 1490, "intensity": "fuerte", "description": "C=C aromático"},
+        {"wavenumber": 1450, "intensity": "media", "description": "CH2 deformación"},
+        {"wavenumber": 755, "intensity": "fuerte", "description": "C-H aromático monosustituido"}
+      ],
+      "density": 1.05,
+      "applications": "Envases, espumas, juguetes"
+    },
+    "PVC": {
+      "name": "Policloruro de Vinilo (PVC)",
+      "characteristic_peaks": [
+        {"wavenumber": 1250, "intensity": "fuerte", "description": "CHCl deformación"},
+        {"wavenumber": 1330, "intensity": "media", "description": "CH2 deformación"},
+        {"wavenumber": 1420, "intensity": "media", "description": "CH2 deformación"},
+        {"wavenumber": 600, "intensity": "fuerte", "description": "C-Cl stretch"},
+        {"wavenumber": 700, "intensity": "fuerte", "description": "C-Cl stretch"}
+      ],
+      "density": 1.38,
+      "applications": "Tuberías, cables, recubrimientos"
+    },
+    "TPO_CaCO3": {
+      "name": "TPO (PP + Carga CaCO3)",
+      "characteristic_peaks": [
+        {"wavenumber": 2950, "intensity": "fuerte", "description": "CH3 (PP)"},
+        {"wavenumber": 2915, "intensity": "fuerte", "description": "CH2 (PP)"},
+        {"wavenumber": 2835, "intensity": "fuerte", "description": "CH (PP)"},
+        {"wavenumber": 1450, "intensity": "media", "description": "CH3 bend (PP)"},
+        {"wavenumber": 1375, "intensity": "media", "description": "CH3 bend (PP)"},
+        {"wavenumber": 1415, "intensity": "muy fuerte", "description": "C-O (CaCO3)"},
+        {"wavenumber": 874, "intensity": "fuerte", "description": "C-O (CaCO3)"},
+        {"wavenumber": 712, "intensity": "media", "description": "C-O (CaCO3)"}
+      ],
+      "density": 1.1,
+      "applications": "Ruedas, parachoques, perfiles"
+    },
+    "TPU_ETHER": {
+      "name": "Poliuretano Termoplástico (TPU) - Tipo Éter",
+      "characteristic_peaks": [
+        {"wavenumber": 3300, "intensity": "fuerte", "description": "N-H stretch (uretano)"},
+        {"wavenumber": 2915, "intensity": "media", "description": "C-H stretch"},
+        {"wavenumber": 1640, "intensity": "fuerte", "description": "C=O Amida I (uretano)"},
+        {"wavenumber": 1540, "intensity": "media", "description": "N-H Amida II (uretano)"},
+        {"wavenumber": 1100, "intensity": "muy fuerte", "description": "C-O-C stretch (poliéter)"},
+        {"wavenumber": 1020, "intensity": "muy fuerte", "description": "C-O-C stretch (poliéter)"}
+      ],
+      "density": 1.12,
+      "applications": "Ruedas, suelas de calzado, sellos, mangueras"
+    },
+    "PEVA": {
+      "name": "Polietileno-co-acetato de vinilo (PEVA)",
+      "characteristic_peaks": [
+        {"wavenumber": 2920, "intensity": "fuerte", "description": "CH2 stretch asimétrico"},
+        {"wavenumber": 2850, "intensity": "fuerte", "description": "CH2 stretch simétrico"},
+        {"wavenumber": 1735, "intensity": "muy fuerte", "description": "C=O estiramiento (acetato)"},
+        {"wavenumber": 1465, "intensity": "media", "description": "CH2 deformación"},
+        {"wavenumber": 1370, "intensity": "media", "description": "CH3 deformación (acetato)"},
+        {"wavenumber": 1240, "intensity": "fuerte", "description": "C-O estiramiento (acetato)"},
+        {"wavenumber": 1020, "intensity": "fuerte", "description": "C-O-C estiramiento"},
+        {"wavenumber": 720, "intensity": "media", "description": "CH2 rocking"}
+      ],
+      "density": 0.94,
+      "applications": "Películas flexibles, envases, calzado, juguetes"
+    },
+    "NEOPRENE": {
+      "name": "Policloropreno (Neopreno)",
+      "characteristic_peaks": [
+        {"wavenumber": 2915, "intensity": "fuerte", "description": "CH2 stretch asimétrico"},
+        {"wavenumber": 2848, "intensity": "fuerte", "description": "CH2 stretch simétrico"},
+        {"wavenumber": 1600, "intensity": "media", "description": "C=C estiramiento"},
+        {"wavenumber": 1450, "intensity": "media", "description": "CH2 deformación"},
+        {"wavenumber": 1380, "intensity": "media", "description": "CH3 deformación"},
+        {"wavenumber": 820, "intensity": "fuerte", "description": "C-Cl estiramiento (trans)"},
+        {"wavenumber": 750, "intensity": "media", "description": "C-Cl estiramiento (gauche)"}
+      ],
+      "density": 1.23,
+      "applications": "Trajes de neopreno, juntas, mangueras, adhesivos"
+    }
+  }
+}
